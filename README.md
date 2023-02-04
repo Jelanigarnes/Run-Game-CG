@@ -45,6 +45,7 @@ The rim lighting shader effect was added to the collectable battery object using
 [Individual Assignment.pdf](https://github.com/Jelanigarnes/Run-Game-CG/files/10609561/Individual.Assignment.pdf)
 
 ## Video Report
+https://youtu.be/D-ckViZCqAk
 
  
 
