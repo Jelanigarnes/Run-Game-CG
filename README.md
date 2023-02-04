@@ -18,7 +18,7 @@ The two shaders I implemented in the game scene was the Simple Specular and Diff
 1 - Simple Specular</br>
 2 - Diffuse wrap</br>
 
-Both shader scripts were coded using the lecture exercise scripts and unity docs.  For simple specular model, it is simply reflection where the material takes the lights color and direction on the object's albedo since specular itself doesn't have a color and produces somewhat of a shinniness. For diffuse wrap model, this is a modified diffuse lighting which wrap around the edges again using the light direction.
+Both shader scripts were coded using the lecture exercise scripts and unity docs with a few added lines of code for a bump map since I textured the model in 3D Coat with material roughness applied.  For simple specular model, it is simply reflection where the material takes the lights color and direction on the object's albedo since specular itself doesn't have a color and produces somewhat of a shinniness. For diffuse wrap model, this is a modified diffuse lighting which wrap around the edges again using the light direction.
 
 ### Part 3
 - [X] Warm LUT
@@ -39,7 +39,10 @@ The toggle for the color grading was implemented using a camera switch script wh
 - [X] Rim Lighting
 - [X] Normal Mapping
 
-The rim lighting shader effect was added to the collectable battery object using the shader script done in the lecture with a few updates to take a texture. The normal mapping shader effect was implemented using the wall texture to give the walls a somewhat grimmy look to go with the texture map.
+The rim lighting shader effect was added to the collectable battery object using the shader script done in the lecture with a few updates to take a texture. The normal mapping shader effect was implemented using the wall and floor texture to give the room a somewhat grimmy look to go with the texture map.
+
+## Slide Deck
+[Individual Assignment.pdf](https://github.com/Jelanigarnes/Run-Game-CG/files/10609561/Individual.Assignment.pdf)
 
 ## Video Report
 
